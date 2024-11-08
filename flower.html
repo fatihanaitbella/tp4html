@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style type="text/css">
+        body{
+            background-color: beige;
+        }
+        a{
+            text-decoration: none;
+            color: palevioletred;
+            font-size: large;
+            font-weight: bolder;
+        }
+        .navbar{
+            display:flex;
+            justify-content: space-around;
+            align-items: center;
+            border: 2px solid rgb(253, 177, 190);
+            background-color: rgb(253, 177, 190);
+            width: 70%;
+            margin:0 auto;
+        }
+        .fig1{
+            margin:0 auto;
+            width: 70%;   }
+       
+        .fig1 img{
+            width: 100%;
+        }
+        button{
+            color:rgb(95, 156, 212);
+            border: 1px solid black;
+            background-color: rgb(228, 223, 223);
+            padding: 10px;font-size: medium;
+        }
+        .parents{
+            display: flex;
+            justify-content: space-around;
+            width: 70%;
+            
+            
+        }
+        .all{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        }   
+
+      @media (max-width:600px){
+        .navbar{
+          
+            display: flex;
+            flex-direction: column;
+        }}
+     
+      
+        @media(max-width:601px) {
+      .parents{
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        }}
+    </style>
+</head>
+<body>
+    <div class="all">
+        <div class="navbar"><img src="images.png" width="100px" height="80px">
+            <a href="">Accueil</a>
+            <a href="">Presentation</a>
+            <a href="">Bouquetes de fleurs</a>
+            <a href="">Services</a>
+            <a href="contact.html">Contact</a></div>
+            <figure class="fig1">
+        
+                <img src="magasin-fleurs-porte-verte-vitrine-fleurs-devanture_14117-15720.avif" alt="" width="70%" height="250px" >
+                <figcaption style="text-align: center;">NOTRE SELECTION DE FLEURES ET DE PLANTES</figcaption>
+            </figure>
+            <div class="parents">
+                <figure>
+                    <img src="GLAMOUR-GIRL-designer-christmas-bouquet.jpg" alt="" width="180px">
+                    <figcaption style="color: pink;">Glamour : 12 fleures sans vase <br><span>190.00Dh</span> 
+                    </figcaption>
+                   
+                    <button> <i class="fa-solid fa-cart-shopping" style="color: rgb(228, 64, 91);"></i> Commandes</button>
+                </figure>
+                <figure>
+                    <img src="-bouquet-de-fleurs-purete-lys-love-livraison-de-fleurs-430x430-25420.jpg" alt="" width="180px">
+                    <figcaption style="color: pink;">Purette: 15 fleures blanches<br><span>250.00Dh</span> 
+                    </figcaption>
+                   
+                    <button> <i class="fa-solid fa-cart-shopping" style="color: rgb(228, 64, 91);"></i> Commandes</button>
+                </figure>
+                <figure>
+                    <img src="mille-pensees.jpg" alt="" width="180px" height="180px">
+                    <figcaption style="color: pink;">Milles pensees: 12 fleuresrouges<br><span>300.00Dh</span> 
+                    </figcaption>
+                   
+                    <button> <i class="fa-solid fa-cart-shopping" style="color: rgb(228, 64, 91);"></i> Commandes</button>
+                </figure>
+                
+            </div>
+    </div>
+   
+
+    
+</body>
+
+</html>
